@@ -1,23 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+
+import classes from "./App.module.css";
+import PuzzleList from "./PuzzleList";
+import { images } from "./images";
 
 function App() {
+  const shuffled = images.sort(() => 0.5 - Math.random());
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={classes.frame}>
+      <PuzzleList images={shuffled}/>
     </div>
   );
 }
