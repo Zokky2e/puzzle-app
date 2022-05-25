@@ -1,6 +1,7 @@
 # Puzzle App
-
+Scrambled puzzle
 ![](scrambled.png)
+Solved puzzle
 ![](done.png)
 
 
