@@ -4,7 +4,8 @@
   margin-top: 15px;
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid black;
+  border: 2px solid black;
+  background-color: aliceblue;
   z-index: -1;
 }
 
@@ -13,7 +14,6 @@
   padding: 50px;
   padding-right: 50px;
   text-align: center;
-  background-color: aquamarine;
   cursor: pointer;
 }
 

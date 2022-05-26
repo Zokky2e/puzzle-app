@@ -6,6 +6,7 @@ function Puzzle(props) {
   return (
     <Draggable
       defaultPosition={{ x: 10, y: -15 }}
+      grid={[8,4]}
       onStart={() => {
         setSelected(2);
       }}
