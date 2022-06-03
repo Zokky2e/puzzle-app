@@ -1,6 +1,12 @@
 .image {
-  width: 12%;
+  width: 12em;
   height: auto;
+}
+
+.place {
+  width: 11.9em;
+  height: 13.4em;
+  border: 1px black solid;
 }
 
 /*# sourceMappingURL=Puzzle.module.css.map */
